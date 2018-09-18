@@ -1,17 +1,16 @@
 import * as React from 'react';
-import Child from './Child';
 
 export interface InterfaceAppProps {
-  testMessage: string
+  testMessage: string;
 }
 
 const mockItems = ['First', 'Second', 'Third'];
 
 class App extends React.Component<InterfaceAppProps, {}> {
-  render() {
+  public render() {
     return (
       <div>
-        <Child items={mockItems}/>
+        Hello world
       </div>
     );
   }
